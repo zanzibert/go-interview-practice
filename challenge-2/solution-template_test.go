@@ -19,6 +19,7 @@ func TestReverseString(t *testing.T) {
 		{"Palindrome", "madam", "madam"},
 		{"Special characters", "12345!@#$%", "%$#@!54321"},
 		{"Mixed case", "GoLang", "gnaLoG"},
+		{"UTF-8 trap", "Café", "éfaC"},
 	}
 
 	for _, tt := range tests {
