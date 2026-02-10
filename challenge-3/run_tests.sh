@@ -14,8 +14,7 @@ if [ ! -f "solution-template_test.go" ]; then
     exit 1
 fi
 
-# Prompt for GitHub username
-read -p "Enter your GitHub username: " USERNAME
+USERNAME=zanzibert
 
 SUBMISSION_DIR="submissions/$USERNAME"
 SUBMISSION_FILE="$SUBMISSION_DIR/solution-template.go"
